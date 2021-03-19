@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name ="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FoodHub</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/f6d3995c4b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+	<header>
+		<!-- LANDING PAGE -->
+		<a href="#banner" class="logo">Food<span>Hub</span></a>
+
+		<!-- SEARCH BOX -->
+		<div class="search-box">
+			<input class="search-txt" type="text" name="" placeholder="Type to search">
+			<a class="search-btn" href="">
+			<i class="fas fa-search"></i>
+			</a>
+		</div>
+		<!-- NAVIGATION -->
+		<div class="menutoggle" onclick="toggleMenu();"></div>
+		<ul class="navigation">
+			<li><a href="#banner" onclick="toggleMenu();">HOME</a></li>
+			<li><a href="#about" onclick="toggleMenu();">ABOUT</a></li>
+			<li><a href="#menu" onclick="toggleMenu();">MENU</a></li>
+			<li><a href="#expert" onclick="toggleMenu();">EXPERTS</a></li>
+			<li><a href="#feedback" onclick="toggleMenu();">FEEDBACK</a></li>
+			<li><a href="#contact" onclick="toggleMenu();">CONTACT US</a></li>
+		</ul>
+	</header>
+	<!-- PARAGRAPH ON THE LANDING PAGE -->
+	<section class='banner' id="banner">
+		<div class="content">
+			<h2>KNOWING MORE ABOUT COOKING?</h2>
+			<p>“Cooking is about creating something delicious for someone else.” <br>― Ayumi Komura</p>
+ 			<a href="#about" class="btn">ABOUT US</a>
+ 		</div>
+	</section>
+
+<!-- ABOUT US -->
+	<section class="about" id="about">
+		<div class="row">
+			<div class="col50">
+				<h2 class="titletext"><span>HI EVERYONE!</span></h2>
+				<p>
+					<br><b>This is a place where we share our passion with the world - delicious healthy recipes. Everything you see here is made from scratch with non-processed natural foods. Most of our recipes are meat, dairy, gluten, and refined-sugar free, and they contain a list of all of the goodness that you will treat your body to by preparing and eating them. I hope you will love the website just as much as we do. 
+					<br><br> Because we know that there are many people who want to learn cooking but they had a financial problem. So we created this website to inspire, motivate, and to teach everyone about cooking.
+
+					<br><br>Have a healthy day eyeryone!</b></p>
+			</div>
+			<div class="col50">
+				<div class="imgBx">
+					<img src="imgs/img.jpg">
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- MENU -->
+<section class="menu" id="menu">
+		<div class="title">
+				<h2 class="titletext"><span>OUR MENU</span></h2>
+				<p><b>We've rounded up our most-popular main dishes, sides and salads - here's what you want to eat for dinner right now.
+				</b></p>
+			</div>
+			<div class="content">
+				<div class="box">
+					<div class="imgbx">
+						<img src="imgs/menu1.jpg">
+					</div>
+					<div class="text">
+						<h3><b>CHOCOLATE CRINGKLES</b></h3>
+					</div>
+		 		</div>
+				<div class="box">
+					<div class="imgbx">
+						<img src="imgs/menu2.jpg">
+					</div>
+					<div class="text">
+						<h3><b>CHOCOLATE CHURROS</b></h3>
+					</div>
+		 		</div>
+				<div class="box">
+					<div class="imgbx">
+						<img src="imgs/menu3.jpg">
+					</div>
+					<div class="text">
+						<h3><b>BUTTERED SHRIMP</b></h3>
+					</div>
+		 		</div>
+				<div class="box">
+					<div class="imgbx">
+						<img src="imgs/menu4.jpg">
+					</div>
+					<div class="text">
+						<h3><b>PORK SCHINIZEL</b></h3>
+					</div>
+		 		</div>
+				<div class="box">
+					<div class="imgbx">
+						<img src="imgs/menu5.jpg">
+					</div>
+					<div class="text">
+						<h3><b>CORDON BLUE</b></h3>
+					</div>
+		 		</div>
+				<div class="box">
+					<div class="imgbx">
+						<img src="imgs/menu6.jpg">
+					</div>
+					<div class="text">
+						<h3><b>CARBONARA CHICKEN LOLLIPOP</b></h3>
+					</div>
+		 		</div>
+
+		 		<div class="box">
+					<div class="imgbx">
+						<img src="imgs/menu7.jpg">
+					</div>
+					<div class="text">
+						<h3><b>BURGER WITH FRIES</b></h3>
+					</div>
+		 		</div>
+				<div class="box">
+					<div class="imgbx">
+						<img src="imgs/menu8.jpg">
+					</div>
+					<div class="text">
+						<h3><b>ORLANDO FOOD</b></h3>
+					</div>
+		 		</div>
+				<div class="box">
+					<div class="imgbx">
+						<img src="imgs/menu9.jpg">
+					</div>
+					<div class="text">
+						<h3><b>PANCAKE</b></h3>
+					</div>
+		 		</div>
+			</div>
+			
+			<div class="pagination">
+				<a href="#"><i class="fas fa-chevron-left"></i></a>
+				<a href="#">1</a>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#">4</a>
+				<a href="#">5</a>
+				<a href="#">6</a>
+				<a href="#"><i class="fas fa-chevron-right"></i></a>
+			</div>
+
+			<div class="title">
+				
+	</section>
+
+<!-- EXPERTS -->
+<section class="expert" id="expert">
+		<div class="title">
+				<h2 class="titletext"><span>OUR KITCHEN EXPERTS</span></h2>
+				<p><b>Our chefs are put through an in-depth interview process and testing. They are serve safe certified, insured and experienced.</b></p>
+			</div>
+		<div class="content">
+			<div class="box">
+				<div class="imgbx">
+					<img src="imgs/expert1.jpg">
+				</div>
+				<div class="text">
+					<h3 class="titletext1"><span>Aldene R. Calitas</span></h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgbx">
+					<img src="imgs/expert2.jpg">
+				</div>
+				<div class="text">
+					<h3 class="titletext1"><span>April Gie M. Aquino</span></h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgbx">
+					<img src="imgs/expert3.jpg">
+				</div>
+				<div class="text">
+					<h3 class="titletext1"><span>Mae Angelica Cruz</span></h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgbx">
+					<img src="imgs/expert4.jpg">
+				</div>
+				<div class="text">
+					<h3 class="titletext1"><span>Jenmar Terrencio</span></h3>
+				</div>	
+			</div>
+			<div class="box">
+				<div class="imgbx">
+					<img src="imgs/expert6.jpg">
+				</div>
+				<div class="text">
+					<h3 class="titletext1"><span>Orlando Majarocon</span></h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgbx">
+					<img src="imgs/expert5.jpg">
+				</div>
+				<div class="text">
+					<h3 class="titletext1"><span>Barron Belt Manzanilla</span></h3>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+
+<!-- SECOND PART -->
+
+	<!-- FEEDBACK -->
+<section class="feedback" id="feedback">
+		<div class="title white">
+				<h2 class="titletext">THE READERS FEEDBACK:</h2>
+			</div>
+			<div class="content">
+				<div class="box">
+					<div class="imgbx">
+						<img src="imgs/testi1.jpg">
+					</div>
+					<div class="text">
+						<p><b>“This website helped me a lot. In this website i learn the things that i didn't know before. It was easy to understan with the help of the kitchen experts. <br>I wanna say thank you for giving me a knowledge about cooking.”</b></p>
+						<h3>Andrew Joseph Nicomedez</h3>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="imgbx">
+						<img src="imgs/testi2.jpg">
+					</div>
+					<div class="text">
+						<p><b>“Im studying culinary course, with this website i learned many things. And on this website also helped me to be more active as a aspiring chef. Hope this website would not end so there are more man people will gain knowledge by the help of this website.”</b></p>
+						<h3>Val Andrie Cabacang Navera</h3>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="imgbx">
+						<img src="imgs/testi3.jpg">
+					</div>
+					<div class="text">
+						<p><b>“Im not studying to any related to cooking, i just want to know what are the basic recipe and food to eat. By this website, and the kitchen experts they help me more than i expect. Now i have knowledge in cooking, and also cooking is now my stress reliever.”</b></p>
+						<h3>Joshua Abaldonado</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+
+<section class="contact" id="contact">
+		<div class="title">
+				<h2 class="titletext"><span>CONTACT US</span></h2>
+				<p><b>Email us with any questions or inqueries or call 318-421-9721.<br>We would be happy to answer your questions and<br>set up a meeting with you.</b><br></p>
+			</div>
+			<div class="contactform">
+				<h3>SEND US MESSAGE!</h3>
+				<div class="inputbox">
+					<input type="text" placeholder="Name">
+				</div>
+					<div class="inputbox">
+					<input type="text" placeholder="E-mail">
+					</div>
+				<div class="inputbox">
+					<textarea placeholder="Message"></textarea>
+					</div>
+				<div class="inputbox">
+					<input type="submit" value="Send">
+					</div>
+				</div>
+</section>
+<!-- COPYRIGHT CODE -->
+<div class="copyrighttext">
+	<p> <b>Copyright 2021 by<a href="#"> FoodHub.</a> All right Reserved.</b> </p>
+
+</div>
+
+	<script type="text/javascript">
+		window.addEventListener('scroll', function(){
+			const header = document.querySelector('header');
+			header.classList.toggle("sticky", window.scrollY > 0);
+		});
+
+
+		function toggleMenu(){
+			const menutoggle = document.querySelector('.menutoggle');
+			const navigation = document.querySelector('.navigation');
+			menutoggle.classList.toggle('active');
+			navigation.classList.toggle('active');
+		}
+	</script>
+
+</html>
