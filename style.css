@@ -594,10 +594,6 @@ section
 	{
 		filter: invert(1);
 	}
-	header.sticky .search-box
-	{
-		filter: invert(1);
-	}
 	section
 	{
 		padding: 20px;
